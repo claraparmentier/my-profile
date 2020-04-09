@@ -1,0 +1,155 @@
+/* Custom text design */
+
+body {
+
+	background-color: white;
+	color: #3A2E39 ;
+	font-family:'Roboto Slab', serif;
+	font-size: 25px;
+	line-height: 1.6
+	font-weight: lighter;
+
+} 
+
+h1, h2 {
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+
+}
+
+h1 {
+	font-size: 60px;
+	color:#ff6f5e
+}
+
+h2 {
+	font-size: 40px;
+	color:#F71735;
+}
+a {
+	text-decoration: none;
+	color:#40bfc1;
+	font-weight: 300;	
+	transition: color 0.3s ease;
+}
+
+/* Custom design with class */
+
+a:hover{
+	color:rgb(255,255,255);
+}
+
+p{
+	text-align: justify;
+}
+
+#photo{
+
+	width: 10em;
+	display: block;
+	margin : 0 auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.img-shadowed {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3)
+}
+
+.container {
+   width: 700px ;
+   margin: 40px auto ;
+   display: block;
+}
+
+#card-bottom {
+	background-color: #DAC6AD;
+  	padding: 60px;
+	margin: 50px;  	 
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  	border-radius: 4px;
+  	text-align: center;
+}  	 	
+
+
+#card-bottom h2{
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.card-beige {
+	background: #f5f0e3;
+   	padding: 60px;	
+   	margin: 50px;
+  	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);	 
+  	border-radius: 4px;
+ }
+
+
+.btn-pink {
+  	background-color: #ff6f5e;
+  	border-radius: 4px;
+  	padding: 15px 20px;
+  	border-radius: 3px;
+  	text-align: center;
+  	transition: color 0.3s ease;
+}
+
+.btn-pink:hover {
+	background-color: #F71735;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 50px;
+}
+
+
+/* Responsive container */
+
+@media (min-width: 960px) {
+  .container {
+    width: 850px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 450px;
+
+   }
+
+   #photo {
+		width: 150px;
+   }
+
+   .card-beige{
+		background-color: white;
+	}
+
+	#card-bottom{
+		background-color: white;
+	}	 
+}
+
+
+
+
